@@ -62,14 +62,14 @@
         REDIS_PORT=6379
         GEMINI_API_KEY=YOUR_GEMINI_API_KEY  # Get this from Google Cloud
         ```
-    4.  Build the Docker image: `docker build -t word_chain_game .`
+    4.  Build the Docker image: `docker build -t What_Beats_Rock .`
     5.  Run the Docker container using Docker Compose (recommended):
         ```bash
         docker-compose up
         ```
         or manually with docker:
         ```bash
-        docker run -p 8000:8000 --env-file .env word_chain_game
+        docker run -p 8000:8000 --env-file .env What_Beats_Rock
         ```
     6.  The game will be accessible at `http://localhost:8000` in your browser.
 
